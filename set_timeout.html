@@ -1,0 +1,15 @@
+<h1>JavaScript Events</h1>
+<h3>The setTimeout() Method</h3>
+<button id="but" onclick="change()">start</button>
+<p id="wait">wait</p>
+<script>
+    var btn=document.getElementById("but")
+    var para=document.getElementById("wait")
+    function change(){
+        setTimeout(showMsg,2000)}
+    function showMsg(){
+        para .textContent="hello after 2s"
+
+    }
+
+</script>
